@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FarmerItem({
   name,
-  state,
+  region,
   crops
 })
 {
@@ -10,7 +10,7 @@ export default function FarmerItem({
     <div className='farmer'>
 
       <p>Farmer Name: {name}</p>
-      <p>Farmer Region: {state}</p>
+      <p>Farmer Region: {region}</p>
       <p>Annual Crop: {crops.annual}</p>
       <p>Biennial Crop: {crops.biennial}</p>
       <p>perennial Crop: {crops.perennial}</p>
