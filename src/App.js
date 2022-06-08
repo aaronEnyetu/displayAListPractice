@@ -7,6 +7,9 @@ import FruitsList from './FruitList';
 import { plants } from './plants.js';
 import PlantsList from './PlantsList';
 
+import { farmers } from './farmers.js';
+import FarmersList from './FarmersList';
+
 console.log(fruits);
 
 function App() {
@@ -15,6 +18,8 @@ function App() {
       <FruitsList fruits={fruits} />
       <hr/>
       <PlantsList plants={plants}/>
+      <hr/>
+      <FarmersList farmers={farmers}/>
     </div>
   );
 }
