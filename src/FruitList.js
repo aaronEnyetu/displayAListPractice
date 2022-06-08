@@ -10,3 +10,4 @@ export default function FruitsList({ fruits }) {
   </div>;
 }
 
+//completed FruitList 
