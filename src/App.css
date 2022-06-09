@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.plant-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plant {
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.95);
+  padding: 10px;
+  margin: 10px;
+}
+
+.crop-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crop {
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.95);
+  padding: 10px;
+  margin: 10px;
+}
