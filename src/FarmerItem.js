@@ -3,11 +3,12 @@ import React from 'react';
 export default function FarmerItem({
   name,
   region,
-  crops
+  crops,
+  
 })
 {
   return (
-    <div className='farmer'>
+    <div>
 
       <p>Farmer Name: {name}</p>
       <p>Farmer Region: {region}</p>

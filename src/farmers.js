@@ -1,7 +1,7 @@
 export const farmers = [
   {
     name: 'Aaron',
-    state: 'Central',
+    region: 'Central',
     crops: {
       annual: 'beans',
       biennial: 'parsely',

@@ -10,6 +10,9 @@ import PlantsList from './PlantsList';
 import { farmers } from './farmers.js';
 import FarmersList from './FarmersList';
 
+import { crops } from './crops.js';
+import CropsList from './CropsList';
+
 console.log(fruits);
 
 function App() {
@@ -20,6 +23,8 @@ function App() {
       <PlantsList plants={plants}/>
       <hr/>
       <FarmersList farmers={farmers}/>
+      <hr/>
+      <CropsList crops={crops}/>
     </div>
   );
 }
