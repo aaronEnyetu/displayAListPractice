@@ -13,8 +13,6 @@ import FarmersList from './FarmersList';
 import { crops } from './crops.js';
 import CropsList from './CropsList';
 
-console.log(fruits);
-
 function App() {
   return (
     <div className="App">
