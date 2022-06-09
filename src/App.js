@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 // import your arrays here
 import { fruits } from './fruits.js';

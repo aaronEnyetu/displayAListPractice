@@ -1,5 +1,5 @@
 import FruitItem from './FruitItem';
-
+import React from 'react';
 
 export default function FruitsList({ fruits }) { 
   console.log(fruits);

@@ -1,4 +1,5 @@
 import CropItem from './CropItem';
+import React from 'react';
 
 export default function CropsList({ crops }) {
   return (
