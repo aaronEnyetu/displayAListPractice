@@ -4,7 +4,7 @@ export const plants =
     name: 'Apple',
     order: 'Rosales',
     family: 'Rosaceae',
-    genus: '',
+    genus: 'Malus',
     species: 'M.domestica',
   },
   {
